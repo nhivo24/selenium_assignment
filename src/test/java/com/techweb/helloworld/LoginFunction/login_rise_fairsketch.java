@@ -74,33 +74,6 @@ public class login_rise_fairsketch extends PageSetUp{
 	
 	}
 
-
-//	@Test
-//	public void TC_04_SignIn_Incorrect_Password() {
-//		driver.get("https://rise.fairsketch.com/signin");
-//		driver.findElement(By.id("email")).clear();
-//		driver.findElement(By.id("password")).clear();
-//		driver.findElement(By.id("email")).sendKeys("admin@demo.com");
-//		driver.findElement(By.id("password")).sendKeys("rise");
-//		driver.findElement(By.xpath("//button[text()='Sign in'] ")).click();
-//		sleepInSecond(2);
-//		
-//		//kiểm tra dữ liệu trả về đúng/sai
-//		//Assert.assertFalse(false);
-//		//Assert.assertTrue(true);
-//		//Verify error message as expected
-//		
-//
-//		try {
-//            WebElement alert = driver.findElement(By.xpath("//div[contains(@class, 'alert-danger') and contains(text(), 'Authentication failed!')]"));
-//            System.out.println("Thông báo lỗi xác thực tồn tại.");
-//        } catch (Exception e) {
-//            System.out.println("Thông báo lỗi xác thực không tồn tại.");
-//        }
-//
-//		
-//	}
-
 	@Test
 	public void TC_05_SignIn_Sucessfully() {
 		driver.get("https://rise.fairsketch.com/signin");

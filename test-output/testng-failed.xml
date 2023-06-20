@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.herokuapp.TC001">
+      <class name="com.techweb.helloworld.LoginFunction.AddClientTestTest">
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="login_w_data"/>
+          <include name="testAddNewClientTest"/>
         </methods>
-      </class> <!-- demo.herokuapp.TC001 -->
+      </class> <!-- com.techweb.helloworld.LoginFunction.AddClientTestTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
